@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boston House Price</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css')}}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="intro-header" style="background-image: url({{ url_for('static', filename='images/bg1.jpg') }});  background-size: cover;">
+  <nav id="TopNav">
+    <span id="heading">
+      <h1>Boston House Price Prediction</h1>
+    </span>
+  </nav>
+  <div class="body-box">
+      <div id="box_2">
+        <h4>{{ result }}</h4>
+      </div>
+  </div>
+
+</body>
+</html>

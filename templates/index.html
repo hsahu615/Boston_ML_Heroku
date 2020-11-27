@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boston House Price</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css')}}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="intro-header" style="background-image: url({{ url_for('static', filename='images/bg2.jpg') }});  height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;">
+  <nav id="TopNav">
+    <span id="heading">
+      <h1>Boston House Price Prediction</h1>
+    </span>
+  </nav>
+  <div class="body-box">
+    <form id="form" method="POST" action="/prediction">
+      <div id="box_1">
+        <input type="number" step="0.000001" name="CRIM" placeholder="CRIM"><br>
+        <input type="number" step="0.000001" name="ZN" placeholder="ZN"><br>
+        <input type="number" step="0.000001" name="INDUS" placeholder="INDUS"><br>
+        <input type="number" step="0.000001" name="CHAS" placeholder="CHAS"><br>
+      </div>
+      <div id="box_2">
+        <input type="number" step="0.000001" name="NOX" placeholder="NOX"><br>
+        <input type="number" step="0.000001" name="RM" placeholder="RM"><br>
+        <input type="number" step="0.000001" name="AGE" placeholder="AGE"><br>
+        <input type="number" step="0.000001" name="DIS" placeholder="DIS"><br>
+      </div>
+      <div id="box_3">
+        <input type="number" step="0.000001" name="RAD" placeholder="RAD"><br>
+        <input type="number" step="0.000001" name="PTRATIO" placeholder="PTRATIO"><br>
+        <input type="number" step="0.000001" name="B" placeholder="B"><br>
+        <input type="number" step="0.000001" name="LSTAT" placeholder="LSTAT"><br>
+      </div>
+      <button type="submit" class="btn-primary">Predict</button>
+    </form>
+  </div>
+
+</body>
+</html>
