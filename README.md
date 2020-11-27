@@ -4,7 +4,7 @@ Linear Regression Project udeployed on heroku.
 
 ## About
 This project is based on Boston house price prediction dataset, the aim of this project is to predict price of houses in Boston, US based on 13 features.
-I used Linear Regression algorithm to solve this project. The main libraries which has been used are:
+I used Linear Regression algorithm to solve this project.And deployed on Heroku platform. The main libraries which has been used are:
 
 - sklearn
 - statsmodels
