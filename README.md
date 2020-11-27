@@ -1,5 +1,5 @@
-# Boston_ML_Heroku
-Linear Regression Project deployed on heroku.
+# Boston House Price Prediction
+Linear Regression Project udeployed on heroku.
 [Heroku Link](https://bostonmlproject.herokuapp.com/)
 
 ## About
