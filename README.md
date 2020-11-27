@@ -7,9 +7,10 @@ This project is based on Boston house price prediction dataset, the aim of this 
 I used Linear Regression algorithm to solve this project. The main libraries which has been used are:
 
 - sklearn
+- statsmodels
 - pandas
 - numpy
 - seaborn
-- statsmodel
+- matplotlib
 - flask
 
