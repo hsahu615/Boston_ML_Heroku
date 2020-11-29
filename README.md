@@ -15,4 +15,4 @@ I used Linear Regression algorithm to solve this project.And deployed on Heroku 
 - flask
 
 ## Screeshot
-<img src="https://i.ibb.co/267yg68/Screenshot-36.png" alt="Screenshot-36" border="0" height=1920 width=1080></a>
+<img src="https://i.ibb.co/BPVtqP4/Screenshot-36.png" alt="Screenshot-36" border="0"><br />
