@@ -14,3 +14,5 @@ I used Linear Regression algorithm to solve this project.And deployed on Heroku 
 - matplotlib
 - flask
 
+## Screeshot
+<img src="https://i.ibb.co/267yg68/Screenshot-36.png" alt="Screenshot-36" border="0"></a>
